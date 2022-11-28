@@ -2,14 +2,14 @@
     <mj-include path="../required_markup/head.mjml" />
     <mj-body>
         <!-- begin module -->
-        <mj-section background-color="#FFFFFF" padding="0">
+        <mj-section background-color="#FFFFFF" padding="0" >
 
-            <mj-column padding="0">
-                <mj-image border-radius="8px" align="left" src="https://unsplash.it/600/400" />
+            <mj-column padding="0" >
+                <mj-image align="center" border-radius="8px" align="left" src="https://unsplash.it/600/400" />
             </mj-column>
 
             <mj-column padding="0">
-                <mj-text>
+                <mj-text align="center" font-family="Poppins" height="100%">
                     {{ module.content }} 
                 </mj-text>
             </mj-column>

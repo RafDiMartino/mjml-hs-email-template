@@ -1,0 +1,22 @@
+<mjml>
+   <mj-head>
+        <mj-font name="Caveat"
+            href="https://fonts.googleapis.com/css?family=Caveat" />
+        <mj-font name="Poppins"
+            href="https://fonts.googleapis.com/css?family=Poppins" />
+   </mj-head>
+    <mj-body>
+        <!-- begin module -->
+            <mj-section>
+            <mj-column>
+                <mj-text font-family="Caveat" font-size="30px" color="white">
+                    This is a font test www W
+                </mj-text>
+                <mj-text font-family="Poppins" font-size="30px" color="white">
+                    This is a font test www W
+                </mj-text>
+                </mj-column>
+            </mj-section>
+        <!-- end module -->
+    </mj-body>
+</mjml>
