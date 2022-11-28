@@ -1,0 +1,12 @@
+defaultPortal: email-test
+portals:
+  - name: email-test
+    portalId: 25485135
+    authType: personalaccesskey
+    auth:
+      tokenInfo:
+        accessToken: >-
+          CMa82vTLMBIJAA0AAAAA4A0DGM--kwwg9vyrDSju6QwyFO8HdwV5VMpaRKYYsaXM72RYAdr8OjcAAARBAAAAeAAAAAAAAAAAAAAAAAAAAAQAAMAHAP7_MTwAAAYAAABgAAAAAAAAAAAAAAAAADACQhQ8wmYEsglu7VwppogjjoqR3DRL5koDZXUxUgBaAA
+        expiresAt: '2022-11-28T14:14:12.809Z'
+    personalAccessKey: >-
+      CiRldTEtZGUwOS1kMTAxLTQzZDItYTQ0NS0xYWI4MDljYWYwMjAQz76TDBj2_KsNKhkABeaRgu1KLQs_cn69I5jKNPbNwaw3HgLYSgNldTE

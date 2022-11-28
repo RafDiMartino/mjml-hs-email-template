@@ -1,0 +1,33 @@
+<mjml>
+    <mj-head>
+      <mj-style>
+        @media only screen and (max-width:480px) {
+          table.mj-full-width-mobile {
+            width: 100% !important;
+          }
+
+          td.mj-full-width-mobile {
+            width: auto !important;
+          }
+        }
+
+        @media only screen and (min-width:480px) {
+          .mj-column-per-50 {
+            width: 50% !important;
+            max-width: 50%;
+          }
+        }
+        
+      </mj-style>
+    </mj-head>
+    <mj-include path="../required_markup/head.mjml" />
+    <mj-body>
+      <mj-wrapper border="2px solid red">
+        <mj-raw>
+        {% block email-body %}
+        
+        {% endblock %}
+        </mj-raw>
+      </mj-wrapper>
+    </mj-body>
+</mjml>

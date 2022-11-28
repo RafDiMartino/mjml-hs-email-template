@@ -1,0 +1,21 @@
+<mjml>
+    <mj-include path="../required_markup/head.mjml" />
+    <mj-body>
+        <!-- begin module -->
+            <mj-section>
+            <mj-column>
+                <mj-image width="600px" src="https://www.online-image-editor.com//styles/2014/images/example_image.png" />
+                <mj-text padding="30px">
+                    {{module.content}}
+                </mj-text>
+            </mj-column>
+            <mj-column>
+                <mj-image width="600px" src="https://www.online-image-editor.com//styles/2014/images/example_image.png" />
+                <mj-text padding="30px">
+                    {{module.content}}
+                </mj-text>
+            </mj-column>
+            </mj-section>
+        <!-- end module -->
+    </mj-body>
+</mjml>
