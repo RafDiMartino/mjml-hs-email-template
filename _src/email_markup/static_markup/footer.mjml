@@ -13,7 +13,7 @@
                             {{ site_settings.company_street_address_1 }}
                             {{ site_settings.company_street_address_2 }}
                             {{ site_settings.company_city }}
-                            {{ site_settings.company_state }}]
+                            {{ site_settings.company_state }}
                             {{ site_settings.company_zip }}
                             {{ site_settings.company_country }}
                             <br/>

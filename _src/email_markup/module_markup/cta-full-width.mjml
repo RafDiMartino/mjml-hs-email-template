@@ -1,0 +1,16 @@
+<mjml>
+    <mj-include path="../required_markup/head.mjml" />
+    <mj-body>
+        <!-- begin module -->
+        <mj-section>
+            <mj-column>
+                <mj-button background-color="black" width="100%">
+                    <a style="text-decoration: none; color: white" href="{{module.buttonLink.url.href}}">
+                        {{module.buttonText}}
+                    </a>
+                </mj-button>
+            </mj-column>
+        </mj-section>
+        <!-- end module -->
+    </mj-body>
+</mjml>
