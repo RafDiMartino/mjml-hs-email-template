@@ -4,7 +4,7 @@
         <!-- begin module -->
         <mj-section>
             <mj-column>
-                <mj-button background-color="black" width="100%">
+                <mj-button background-color="black" width="100%" border-radius="25px">
                     <a style="text-decoration: none; color: white" href="{{module.buttonLink.url.href}}">
                         {{module.buttonText}}
                     </a>

@@ -1,0 +1,21 @@
+<mjml>
+    <mj-include path="../required_markup/head.mjml" />
+    <mj-body>
+        <!-- begin module -->
+        <mj-section background-color="#FFFFFF" padding="0">
+
+            <mj-column padding="0">
+                <mj-image border-radius="8px" align="left" src="https://unsplash.it/600/400" />
+            </mj-column>
+
+            <mj-column padding="0">
+                <mj-text>
+                    {{ module.content }} 
+                </mj-text>
+            </mj-column>
+
+        </mj-section>
+        <!-- end module -->
+    </mj-body>
+    
+</mjml>

@@ -1,10 +1,15 @@
 <mjml>
     <mj-include path="../required_markup/head.mjml" />
+    <mj-head>
+        <mj-font name="Caveat"
+            href="https://fonts.googleapis.com/css?family=Caveat" />
+    </mj-head>
+    
     <mj-body>
         <!-- begin module -->
             <mj-section>
             <mj-column>
-                <mj-text>
+                <mj-text font-family="Caveat">
                     {{module.content}}
                 </mj-text>
                 </mj-column>

@@ -21,8 +21,8 @@
       </mj-style>
     </mj-head>
     <mj-include path="../required_markup/head.mjml" />
-    <mj-body>
-      <mj-wrapper border="2px solid red">
+    <mj-body background-color="#f8ce46">
+      <mj-wrapper background-color="white">
         <mj-raw>
         {% block email-body %}
         

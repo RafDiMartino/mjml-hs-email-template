@@ -6,7 +6,7 @@
     </mj-raw>
 
     <mj-attributes>
-        <mj-all font-family="Arial, sans-serif" />
+        <!-- <mj-all font-family="Arial, sans-serif" /> -->
     </mj-attributes>
 
     <mj-style inline="inline">
@@ -56,7 +56,5 @@
             
 
     </mj-style>
-    
-    
 
 </mj-head>
